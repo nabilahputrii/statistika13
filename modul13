@@ -1,0 +1,9 @@
+#Latihan Ketiga 2
+dataku_nabilah = read.delim("clipboard")
+View(dataku_nabilah)
+wilcox.test(dataku_nabilah$caffeine,dataku_nabilah$placebo ,paired=TRUE)
+
+#Latihan Ketiga 1
+dataku_nabilah = read.delim("clipboard")
+View(dataku_nabilah)
+wilcox.test(dataku_nabilah$Ganjil,dataku_nabilah$Genap ,paired=TRUE)
